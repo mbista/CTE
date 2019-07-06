@@ -1,4 +1,5 @@
-https://docs.microsoft.com/en-us/sql/relational-databases/lesson-1-connecting-to-the-database-engine?view=sql-server-2017CREATE TABLE dbo.subscribers 
+https://docs.microsoft.com/en-us/sql/relational-databases/lesson-1-connecting-to-the-database-engine?view=sql-server-2017
+CREATE TABLE dbo.subscribers 
   ( 
      [SubscriberID]  INT IDENTITY(1, 1) PRIMARY KEY, 
      [FirstName]     VARCHAR(25), 
